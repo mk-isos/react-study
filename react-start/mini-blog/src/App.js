@@ -6,9 +6,10 @@ import {
 } from "react-router-dom";
 import styled from "styled-components";
 // Pages
-import MainPage from './component/page/MainPage';
-import PostWritePage from './component/page/PostWritePage';
-import PostViewPage from './component/page/PostViewPage';
+import MainPage from "./component/page/MainPage.jsx";
+import PostWritePage from "./component/page/PostWritePage.jsx";
+import PostViewPage from "./component/page/PostViewPage.jsx";
+
 
 const MainTitleText = styled.p`
     font-size: 24px;
